@@ -17,6 +17,7 @@ nano /etc/default/dropbear
 NO_START=1
 DROPBEAR_PORT=22
 DROPBEAR_EXTRA_ARGS=
+DROPBEAR_RECEIVE_WINDOW=65536
 
 
 
@@ -37,6 +38,15 @@ DROPBEAR_PORT=443
 DROPBEAR_EXTRA_ARGS= (Opcional, solo modificar si necesita mas puertos en el servicio Dropbear)
 
 DROPBEAR_EXTRA_ARGS="-p 80 -p 110 "
+
+
+# Resultado:
+
+NO_START=0
+DROPBEAR_PORT=443
+DROPBEAR_EXTRA_ARGS="-p 80 -p 110 "
+DROPBEAR_RECEIVE_WINDOW=65536
+
 
 # Guardar el Archivo dropbear:
 
