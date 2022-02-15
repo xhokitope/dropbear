@@ -92,5 +92,7 @@ netstat -tnlp
 
 * Compatible con Ubuntu 14, 16, 18
 
+* based linux
+
 
 
