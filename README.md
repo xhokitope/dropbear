@@ -90,7 +90,7 @@ netstat -tnlp
 @XhokitoPe
 
 
-
+* Compatible con Ubuntu 14, 16, 18
 
 
 
