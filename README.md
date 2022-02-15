@@ -4,6 +4,10 @@ Conexion VPN por Medio del Servicio Dropbear
 
 # INICIO:
 
+sudo su
+
+cd
+
 apt-get update && apt-get upgrade -y
 
 apt-get install dropbear -y
